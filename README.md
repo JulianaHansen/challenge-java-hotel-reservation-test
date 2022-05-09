@@ -1,4 +1,4 @@
-Nearly empty java project with a failing test!
+Challenge - Hotel Reservation
 ===
 
 This has been created using gradle; to run the tests, just execute:
@@ -13,6 +13,8 @@ or (on windows machines):
 gradlew.bat test
 ```
 
-**DO NOT change the names of the function (GetCheapestHotel) or of the file and folder it is in, changing it implies in disqualification.** 
+**Program that finds the cheapest hotel.** 
 
-**After implementing your solution, it should pass the unit tests available.**
+The program's input should be a sequence of dates for a customer participating or not in the loyalty program.
+"Regular" is used for a regular customer and "Reward" for a customer participating in the loyalty program. 
+The output will be the cheapest available hotel for the dates provided, and in the event of a tie, the hotel with the highest rating will be returned.
